@@ -13,3 +13,7 @@ void adjNet::InsertEdge(int v1,int v2,int w){
     }//到末尾退出
     n->nextedgeNode=new edgeNode(v2,w);//添置新节点
 }
+
+int adjNet::GetVexNum(){
+    return adjlist.size();
+} 
