@@ -32,3 +32,33 @@ int adjNet::GetVexNum(){
 int adjNet::FirstAdjVex(int v1){
     return adjlist[v1].nextedgeNode->adjnum;
 }
+
+//返回v1到v2的邻接点
+int adjNet::NextAdjVex(int v1,int v2){
+    bool tag=true;
+    edgeNode* n;
+    for(n=adjlist[v1].nextedgeNode;n!=NULL;n=n->nextedgeNode){
+        if(n->adjnum==v2) break;
+    }
+    n=n->nextedgeNode;
+    if(n==NULL) tag=false;
+    if(tag){
+        return n->adjnum;
+    }
+    else{
+        return -1;
+    }
+}
+
+int adjNet::GetWeight(int v1,int v2){
+    edgeNode* n=adjlist[v1].nextedgeNode;
+    while(n!=NULL){
+        if(n->adjnum==v2)break;
+    }
+    if(n){
+        return n->weight;
+    }
+    else{
+        return -1;
+    }
+}
