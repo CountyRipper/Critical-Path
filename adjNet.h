@@ -22,7 +22,7 @@ struct adjNode{
     edgeNode* nextedgeNode;//指向下一个表边节点
     adjNode(){
         vex=0;
-        nextedgeNode=nullptr;
+        //nextedgeNode=nullptr;
     }//无参
     adjNode(int v,edgeNode* next=nullptr){
         vex=v;nextedgeNode=next;

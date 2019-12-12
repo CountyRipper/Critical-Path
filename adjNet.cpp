@@ -9,11 +9,18 @@ int adjNet::InsertEdge(int v1,int v2,int w){
     if(v1>num||v2>num){
         return -1;
     }
-    edgeNode *n=adjlist[v1-1].nextedgeNode;
-    while(n!=nullptr){
-        n=n->nextedgeNode;
-    }//到末尾退出
-    n->nextedgeNode=new edgeNode(v2,w);//添置新节点
+    if(adjlist[v1].nextedgeNode==nullptr){
+        adjlist[v1].nextedgeNode = new edgeNode(v2,w,nullptr);
+    }
+    else{
+        edgeNode* n = adjlist[v1].nextedgeNode;
+        while(n->nextedgeNode!=nullptr){
+            n=n->nextedgeNode;
+        }//到末尾退出
+        n->nextedgeNode = new edgeNode(v2,w,nullptr);//添置新节点
+    //n->nextedgeNode = new edgeNode(v2+1,w,nullptr);
+    }
+    //std::cout<<adjlist[v1].nextedgeNode->adjnum;
     return 1;
 }
 

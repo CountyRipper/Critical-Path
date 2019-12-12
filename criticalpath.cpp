@@ -15,7 +15,7 @@ void statIndegree(adjNet &net,int *indegree){
     }
 }
 
-int CriticalPath(adjNet &net){
+int Criticalpath(adjNet &net){
     //初始：存在有向网络
     //如果net无回路，输出net的关键活动，并且返回1，否则返回-1
     
