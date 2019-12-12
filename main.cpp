@@ -18,5 +18,6 @@ int main(int, char**) {
     net.InsertEdge(8,9,4);
     Criticalpath(net);
     std::cout<<std::endl;
+    std::cin.get();
     return 0;
 }

@@ -66,6 +66,7 @@ int adjNet::GetWeight(int v1,int v2){
     edgeNode* n=adjlist[v1].nextedgeNode;
     while(n!=nullptr){
         if(n->adjnum==v2)break;
+        n=n->nextedgeNode;
     }
     if(n){
         return n->weight;
