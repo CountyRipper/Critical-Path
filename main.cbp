@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="main"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="G:/Critical-Path"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="G:/Critical-Path"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="G:/Critical-Path"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="G:/Critical-Path"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="G:/Critical-Path"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="G:/Critical-Path"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="G:/Critical-Path/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/Critical-Path"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="G:/Critical-Path/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/Critical-Path"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package">
+				<Option working_dir="G:/Critical-Path"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="G:/Critical-Path"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="G:/Critical-Path"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/mingw32-make.exe -f &quot;G:/Critical-Path/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="G:/Critical-Path/adjNet.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="G:/Critical-Path/adjNet.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="G:/Critical-Path/criticalpath.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="G:/Critical-Path/criticalpath.h">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="G:/Critical-Path/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="G:/Critical-Path/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

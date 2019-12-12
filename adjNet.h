@@ -1,10 +1,9 @@
 #ifndef _ADJNET_H_
 #define _ADJNET_H_
 
-#include<vector>
+#include <vector>
 #include<stddef.h>
-using namespace std;
-
+#include <iostream>
 //表边节点
 struct edgeNode
 {
@@ -12,7 +11,7 @@ struct edgeNode
     int weight;//权重
     edgeNode* nextedgeNode;//指向下一个表边节点
     edgeNode();
-    edgeNode(int adjn,int w,edgeNode* next=NULL){
+    edgeNode(int adjn,int w,edgeNode* next=nullptr){
         adjnum=adjn;weight=w;nextedgeNode=next;
     }
 };
@@ -23,9 +22,9 @@ struct adjNode{
     edgeNode* nextedgeNode;//指向下一个表边节点
     adjNode(){
         vex=0;
-        nextedgeNode=NULL;
-    };//无参
-    adjNode(int v,edgeNode* next=NULL){
+        nextedgeNode=nullptr;
+    }//无参
+    adjNode(int v,edgeNode* next=nullptr){
         vex=v;nextedgeNode=next;
     }
 };
@@ -33,9 +32,10 @@ struct adjNode{
 class adjNet{
     protected:
         int vexnum,edgenum;//顶点数，边数
-        vector<adjNode> adjlist;//顶点表
-        void Destroy();//摧毁网
-        int IndexVex(const vector<adjNode>*la,int v);//定位顶点位置
+        std::vector<adjNode> adjlist;//顶点表
+        void Destroy(){
+        };//摧毁网
+        int IndexVex(const std::vector<adjNode> *la,int v);//定位顶点位置
 
     public:
         adjNet();//无参构造函数

@@ -10,7 +10,7 @@ int adjNet::InsertEdge(int v1,int v2,int w){
         return -1;
     }
     edgeNode *n=adjlist[v1-1].nextedgeNode;
-    while(n!=NULL){
+    while(n!=nullptr){
         n=n->nextedgeNode;
     }//到末尾退出
     n->nextedgeNode=new edgeNode(v2,w);//添置新节点
@@ -30,18 +30,23 @@ int adjNet::GetVexNum(){
 
 //返回第一个邻接结点
 int adjNet::FirstAdjVex(int v1){
-    return adjlist[v1].nextedgeNode->adjnum;
+    if(adjlist[v1].nextedgeNode!=nullptr){
+        return adjlist[v1].nextedgeNode->adjnum;
+    }
+    else{
+        return -1;
+    }
 }
 
 //返回v1到v2的邻接点
 int adjNet::NextAdjVex(int v1,int v2){
     bool tag=true;
     edgeNode* n;
-    for(n=adjlist[v1].nextedgeNode;n!=NULL;n=n->nextedgeNode){
+    for(n=adjlist[v1].nextedgeNode;n!=nullptr;n=n->nextedgeNode){
         if(n->adjnum==v2) break;
     }
     n=n->nextedgeNode;
-    if(n==NULL) tag=false;
+    if(n==nullptr) tag=false;
     if(tag){
         return n->adjnum;
     }
@@ -52,13 +57,17 @@ int adjNet::NextAdjVex(int v1,int v2){
 
 int adjNet::GetWeight(int v1,int v2){
     edgeNode* n=adjlist[v1].nextedgeNode;
-    while(n!=NULL){
+    while(n!=nullptr){
         if(n->adjnum==v2)break;
     }
     if(n){
         return n->weight;
     }
     else{
-        return -1;
+        return 0;
     }
+}
+
+adjNet::~adjNet(){
+    Destroy();
 }
